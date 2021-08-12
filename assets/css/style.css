@@ -1,0 +1,24 @@
+header {
+    font-size: 50px;
+    text-align: center;
+    border: 10px solid black;
+}
+
+#game-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#game-window {
+    border: 10px solid black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    height: 601px;
+    width: 801px;
+}
+
+canvas{
+    border: 1px solid black;
+}
