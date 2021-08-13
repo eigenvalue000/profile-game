@@ -1,5 +1,5 @@
 let img = new Image();
-img.src = './assets/images/loading-screen-sprite.png';
+img.src = './assets/images/loading-screen.png';
 img.onload = function () {
     init();
 };
@@ -48,14 +48,15 @@ let ctx = canvas.getContext('2d');
 //   window.requestAnimationFrame(step);
 // }
 
-var x1 = [0, 51, 0, 51];
-var y1 = [0, 0, 51, 51];
-var x2 = [49, 100, 49, 100];
-var y2 = [49, 49, 100, 100];
+var x1 = [0, 32, 0, 32];
+var y1 = [0, 0, 32, 32];
+var x2 = [32, 64, 32, 64];
+var y2 = [32, 32, 64, 64];
 var widthArray = [800, 1600, 800, 1600];
 var heightArray = [600, 600, 1200, 1200];
 let frameCount = 0;
 let currentLoopIndex = 0;
+
 
 function step() {
     frameCount++;
