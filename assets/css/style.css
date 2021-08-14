@@ -11,15 +11,58 @@ header {
 }
 
 #game-window {
+    display: block;
     border: 10px solid black;
-    text-align: center;
-    justify-content: center;
     margin: 10px;
     height: 601px;
     width: 801px;
 }
 
-canvas{
+#myCanvas{
     display: block;
-    border: 1px solid black;
+    border: 10px solid black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#statSheet {
+    display: block;
+    border: 10px solid black;
+    position: relative;
+    left: 450px;
+    bottom: 410px;
+}
+
+#dialogBox {
+    border: 10px solid black;
+    width: 320px;
+    height: 150px;
+    position: relative;
+    left: 450px;
+    bottom: 445px;
+}
+
+#chatInput {
+    border: 10px solid black;
+    width: 175px;
+    position: relative;
+    left: 450px;
+    bottom: 465px;
+}
+
+#armorSheet {
+    border: 10px solid black;
+    position: relative;
+    left: 450px;
+    bottom: 420px;
+}
+
+#characterPortrait {
+    border: 10px solid black;
+    position: relative;
+    width: 90px;
+    height: 133px;
+    left: 680px;
+    bottom: 817px;
 }
